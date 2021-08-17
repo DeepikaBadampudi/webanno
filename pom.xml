@@ -37,6 +37,10 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
+  <properties>
+  <sonar.organization>deepikabadampudi</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
   <issueManagement>
     <url>https://github.com/webanno/webanno/issues</url>
     <system>GitHub Issues</system>
