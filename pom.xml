@@ -37,10 +37,9 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
-  <properties>
-  <sonar.organization>deepikabadampudi</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-</properties>
+  
+
+
   <issueManagement>
     <url>https://github.com/webanno/webanno/issues</url>
     <system>GitHub Issues</system>
@@ -58,6 +57,9 @@
     </repository>
   </distributionManagement>
   <properties>
+      <sonar.organization>deepikabadampudi</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    
     <maven.surefire.heap>6g</maven.surefire.heap>
     <maven.compiler.target>11</maven.compiler.target>
     <maven.compiler.source>11</maven.compiler.source>
